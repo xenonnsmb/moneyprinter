@@ -150,7 +150,7 @@ contract MyToken is ERC20Interface, Owned, SafeMath {
         symbol = "USER_TOKEN_SYMBOL";
         name = "USER_TOKEN_NAME";
         decimals = 18;
-        _totalSupply = USER_TOTAL_SUPPLY000000000000000000
+        _totalSupply = USER_TOTAL_SUPPLY000000000000000000;
         balances[USER_ADDRESS] = _totalSupply;
         Transfer(address(0), USER_ADDRESS, _totalSupply);
     }
